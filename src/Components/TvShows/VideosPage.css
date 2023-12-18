@@ -1,0 +1,80 @@
+/* VideosPage */
+
+.VideosPage {
+  font-family: sans-serif;
+  text-align: center;
+  margin: 0 auto;
+  background-color: #14213d;
+  font-family: "Montserrat", sans-serif;
+  padding-top: 30px;
+  padding-bottom: 60px;
+  padding-left: 24px;
+  padding-right: 24px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.VideosDisplay {
+  max-width: 1440px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  justify-content: center;
+}
+
+.GenreSelector {
+  max-width: 1440px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+  margin: 0 auto;
+  padding-bottom: 30px;
+  width: 100%;
+}
+
+.GenreSelector h1 {
+  color: whitesmoke;
+  font-weight: 400;
+  user-select: none;
+}
+
+.videoGenre-selector {
+  padding: 12px 8px;
+  border-radius: 12px;
+  width: 225px;
+  font-size: 16px;
+}
+
+.videoGenre-selector:hover {
+  cursor: pointer;
+}
+
+@media (max-width: 1200px) {
+  .VideosDisplay {
+    grid-template-columns: repeat(5, 1fr);
+  }
+}
+@media (max-width: 1000px) {
+  .VideosDisplay {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+@media (max-width: 800px) {
+  .VideosDisplay {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .videoGenre-selector {
+    width: 175px;
+  }
+  .GenreSelector h1 {
+    font-size: 27px;
+  }
+}
+@media (max-width: 550px) {
+  .VideosDisplay {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

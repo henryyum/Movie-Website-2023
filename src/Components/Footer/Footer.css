@@ -1,0 +1,88 @@
+/* Footer */
+.footer-wrapper {
+  background-color: black;
+  text-align: center;
+}
+
+.Footer {
+  max-width: 1440px;
+  margin: 0 auto;
+  color: white;
+  padding: 24px 18px;
+  display: flex;
+  gap: 36px;
+  flex-direction: column;
+}
+
+.Footer button {
+  padding: 0;
+  color: white;
+  background-color: black;
+  border: none;
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  transition: all 0.5s;
+}
+
+.Footer button:hover {
+  color: orangered;
+  cursor: pointer;
+}
+
+.footer-text {
+  max-width: 1200px;
+  margin: 0 auto;
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.footer-topbtn-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+}
+
+.footer-description {
+  font-size: 13px;
+}
+.footer-name {
+  font-size: 15px;
+}
+
+.footer-social-icon {
+  width: 24px;
+}
+
+.footer-social-icon:hover {
+  cursor: pointer;
+}
+
+.footer-social-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+
+.footer-social-wrapper button {
+  padding: 0;
+}
+
+.footer-social-wrapper button:hover {
+  cursor: pointer;
+}
+
+@media (max-width: 800px) {
+  .footer-text p {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 550px) {
+  .footer-text p {
+    font-size: 12px;
+  }
+}

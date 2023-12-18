@@ -1,0 +1,60 @@
+/* Section Header */
+.Tabs-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 0px;
+}
+
+.Tabs-wrapper h3 {
+  color: white;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  font-size: 24px;
+}
+
+.Tabs-btn-wrapper {
+  display: flex;
+  width: 200px;
+  background-color: white;
+  justify-content: center;
+  border-radius: 25px;
+  padding: 1.5px;
+}
+
+.TabsBtn {
+  font-family: "Montserrat", sans-serif;
+  flex-grow: 1;
+  background-color: white;
+  border-radius: 25px;
+  border: none;
+  padding: 8px 0px;
+  font-weight: 500;
+  letter-spacing: 0.2px;
+  transition: all 0.5s;
+}
+
+.Tab-one {
+  background-color: darkorange;
+  color: white;
+}
+
+.TabsBtn:hover {
+  cursor: pointer;
+}
+
+.Tab-one:hover {
+  background-color: #6a040f;
+}
+
+@media (max-width: 550px) {
+  .TabsBtn {
+    padding: 4px;
+  }
+  .Tabs-btn-wrapper {
+    width: 150px;
+  }
+  .Tabs-wrapper h3 {
+    font-size: 18px;
+  }
+}

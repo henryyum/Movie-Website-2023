@@ -1,0 +1,200 @@
+/* Hero */
+
+.Hero {
+  height: 850px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  background-color: black;
+  font-family: "Montserrat", sans-serif;
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-color: #7f7f7f;
+  background-blend-mode: multiply;
+  position: relative;
+}
+
+.Hero-navSearch {
+  position: absolute;
+  max-width: 1450px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  margin-left: 16px;
+}
+
+.Hero-navSearch form {
+  max-width: 1450px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #001a2c;
+  border-radius: 50px;
+}
+
+.Hero-navSearch input {
+  flex-grow: 1;
+  border: none;
+  text-align: center;
+  border-radius: 50px;
+  padding: 12px;
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  background-color: #001a2c;
+  margin-top: 4px;
+  color: #ade8f4;
+}
+
+.Hero-navSearchBtn {
+  font-size: 18px;
+  padding: 12px 16px;
+  color: white;
+  font-weight: 500;
+  background-color: #001a2c;
+  border: none;
+  border-radius: 50px;
+  transition: all 0.2s;
+}
+
+.Hero-navSearchBtn:hover {
+  color: orangered;
+  cursor: pointer;
+}
+
+.Hero-navSearch input::placeholder {
+  color: #ade8f4;
+}
+
+.Hero-navSearch input:focus {
+  outline: none;
+}
+
+.Hero-title h1 {
+  color: white;
+  font-weight: 600;
+  font-size: 80px;
+  letter-spacing: 1px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.Hero-title h4 {
+  color: white;
+  font-weight: 300;
+  font-size: 24px;
+  letter-spacing: 1px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.Hero-title {
+  margin-bottom: 18px;
+}
+
+.Hero-input-wrapper {
+  width: 100%;
+  max-width: 450px;
+  margin: 0 auto;
+  padding: 6px 8px;
+  border-radius: 25px;
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+}
+
+.Hero-input-wrapper input {
+  border: none;
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  flex-grow: 1;
+  border-radius: 25px;
+  margin-left: 6px;
+}
+
+.Hero-input-wrapper input:focus {
+  outline: none;
+  background-color: white;
+}
+
+.form {
+  display: flex;
+  max-width: 450px;
+  width: 100%;
+  flex-grow: 1;
+}
+
+.form:focus {
+  background-color: white;
+}
+
+.Hero-input-wrapper button {
+  background-color: orangered;
+  padding: 8px 48px;
+  border-radius: 25px;
+  border: none;
+  color: white;
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  transition: all 0.5s;
+}
+
+.Hero-input-wrapper button:hover {
+  cursor: pointer;
+  background-color: #9d0208;
+}
+
+@media (max-width: 800px) {
+  .Hero-title h1 {
+    font-size: 60px;
+  }
+  .Hero-title h4 {
+    font-size: 18px;
+  }
+  .Hero-input-wrapper {
+    padding: 4px 6px;
+    width: 60%;
+  }
+  .Hero-input-wrapper input {
+    font-size: 14px;
+    width: 60%;
+  }
+
+  .Hero-input-wrapper button {
+    font-size: 15px;
+    padding: 6px 36px;
+  }
+}
+
+@media (max-width: 550px) {
+  .Hero-navSearch input {
+    font-size: 12px;
+  }
+  .Hero-navSearchBtn {
+    font-size: 14px;
+  }
+  .Hero-title h1 {
+    font-size: 45px;
+  }
+
+  .Hero-title h4 {
+    font-size: 14px;
+    max-width: 450px;
+  }
+  .Hero-input-wrapper {
+    width: 40%;
+  }
+  .Hero-input-wrapper input {
+    font-size: 12px;
+    width: 40%;
+  }
+  .Hero-input-wrapper button {
+    font-size: 12px;
+    padding: 6px 18px;
+  }
+}

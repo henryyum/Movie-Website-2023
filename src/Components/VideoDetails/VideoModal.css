@@ -1,0 +1,86 @@
+.watch-trailer-btn img {
+  width: 12px;
+  color: white;
+  background-color: transparent;
+  transition: all 0.5s;
+}
+
+.watch-trailer-btn {
+  display: flex;
+  align-items: center;
+  padding: 8px 16px;
+  gap: 10px;
+  color: white;
+  background-color: darkred;
+  font-size: 15px;
+  border-radius: 16px;
+  border: none;
+  transition: all 0.5s;
+}
+
+.watch-trailer-btn:hover,
+.watch-trailer-btn img:hover {
+  cursor: pointer;
+  background-color: #6a040f;
+}
+
+.close-modal-btn:hover {
+  cursor: pointer;
+}
+
+.video-modal {
+  padding: 2px 8px;
+  background-color: transparent;
+  transition: all 0.5s;
+  border: none;
+  z-index: 1001;
+}
+
+.video-modal iframe {
+  width: 875px;
+  height: 525px;
+  border-radius: 2px;
+  transition: all 0.5s;
+}
+
+.video-modal h1 {
+  text-align: right;
+  color: white;
+  padding: 0;
+  margin-bottom: 6px;
+  margin-top: 2px;
+  margin-right: 2px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.video-image {
+  width: 385px;
+  border-radius: 6px;
+  transition: all 0.5s;
+}
+
+.video-image:hover {
+  cursor: pointer;
+  filter: brightness(65%);
+}
+
+@media (max-width: 1000px) {
+  .video-modal iframe {
+    width: 750px;
+    height: 400px;
+  }
+}
+
+@media (max-width: 800px) {
+  .video-modal iframe {
+    width: 500px;
+    height: 375px;
+  }
+}
+@media (max-width: 550px) {
+  .video-modal iframe {
+    width: 325px;
+    height: 375px;
+  }
+}

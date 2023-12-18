@@ -1,0 +1,156 @@
+/* Header */
+
+.Header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 50px;
+  max-width: 1440px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.Header a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.Header-left {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.Header-left h4 {
+  font-size: 24px;
+  font-weight: 800;
+}
+
+.Header-right {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.Header-right button {
+  font-size: 16px;
+  font-weight: 500;
+  background-color: transparent;
+}
+
+.Header-searchicon {
+  width: 16px;
+  z-index: 100;
+}
+
+.Header-filmicon {
+  width: 48px;
+  border-radius: 50px;
+}
+
+.Header-filmicon:hover {
+  cursor: pointer;
+}
+
+.Header button {
+  display: flex;
+  border: none;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  transition: all 0.5s;
+}
+
+.Header button:hover {
+  cursor: pointer;
+}
+
+.Header a {
+  transition: all 0.5s;
+}
+
+.Header a:hover {
+  color: orangered;
+  cursor: pointer;
+}
+
+.Header h4 {
+  color: orangered;
+  font-family: "Montserrat", sans-serif;
+  user-select: none;
+}
+
+.Header h4:hover {
+  cursor: pointer;
+}
+
+.Header-right-search {
+  padding: 6px 16px;
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+  background-color: white;
+  color: black;
+  font-size: 12px;
+  border-radius: 50px;
+  display: flex;
+}
+
+.Header-right-search input {
+  background-color: none;
+  border: none;
+  flex-grow: 1;
+}
+
+.Header-right-search input:focus {
+  outline: none;
+}
+.header-hamburger-icon {
+  width: 24px;
+  color: white;
+  display: none;
+}
+.header-hamburger-icon:hover {
+  cursor: pointer;
+}
+
+.header-hamburger {
+  display: flex;
+  align-items: center;
+}
+
+.header-hamburgerMenu {
+  width: 100vw;
+  margin: 0;
+  padding: 24px 0px;
+  box-sizing: border-box;
+  position: absolute;
+  background-color: #001a2c;
+  top: 72px;
+  left: 0;
+  right: 0;
+  z-index: 5;
+}
+
+.header-hamburgerMenu nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+.header-navbar {
+  display: flex;
+  gap: 18px;
+}
+
+@media (max-width: 550px) {
+  .header-hamburger-icon {
+    display: block;
+  }
+  .header-navbar {
+    display: none;
+  }
+}

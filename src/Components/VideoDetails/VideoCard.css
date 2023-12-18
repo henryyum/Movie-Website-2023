@@ -1,0 +1,72 @@
+/* Movie Card */
+
+.VideoCard {
+  padding-bottom: 36px;
+  box-shadow: 1px 1px 5px lightgray;
+  border: 2px solid #7f7f7f;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+}
+
+.VideoCard-image {
+  width: 100%;
+  max-width: 320px;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  transition: all 0.5s;
+}
+
+.VideoCard-image:hover {
+  cursor: pointer;
+  filter: brightness(60%);
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+.VideoCard-wrapper {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.VideoCard-text {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 12px;
+  font-size: 14px;
+  padding: 12px;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  margin: 0 auto;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  height: 80px;
+}
+
+.VideoCard-text h3 {
+  font-weight: 500;
+}
+
+.VideoCard-text p {
+  font-weight: 300;
+}
+
+.VideoCard-rating {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+}
+.star-icon {
+  width: 15px;
+}
+
+.swiper-button-next {
+  color: whitesmoke;
+}
+
+.swiper-button-prev {
+  color: whitesmoke;
+}

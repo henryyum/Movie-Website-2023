@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  margin: 0 auto;
+  background-color: #14213d;
+  font-family: "Montserrat", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+ul {
+  margin: 0;
+}
+
+button {
+  padding: 0;
+}
+
+/* Header */
+
+.header-wrapper {
+  background-color: #6a040f;
+}
+
+/* Section */
+
+.section-wrapper {
+  padding: 0px 50px;
+  padding-bottom: 50px;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.Trending-section,
+.Popular-section,
+.Toprated-section,
+.search-results {
+  font-family: "Montserrat", sans-serif;
+}
+
+.swiper-button-next {
+  color: orangered;
+}
+
+.swiper-button-prev {
+  color: orangered;
+}
